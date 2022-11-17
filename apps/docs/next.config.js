@@ -1,5 +1,5 @@
-const { common } = require('nextconfig');
+const { config } = require('nextconfig');
 
 module.exports = {
-  ...common,
+  ...config,
 };
